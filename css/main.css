@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: Georgia, serif;
+  color: #efefef;
 }
 
 *, *::before, *::after {
@@ -41,11 +42,12 @@ html {
   }
 
   .banner-content {
+    width: 100%;
     text-align: left;
     background-color: transparent;
     position: absolute;
     bottom: 0;
-    background-image: linear-gradient(rgba(73, 85, 98, .9),(rgba(73, 85, 98, .9));
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
   }
 
   .btn {
